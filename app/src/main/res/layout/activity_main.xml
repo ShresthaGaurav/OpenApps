@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_rowSpan="2"
+    android:layout_columnSpan="2"
+    android:columnCount="2"
+    android:orientation="horizontal"
+    android:rowCount="3"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="camera" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="Call" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="Google PLay" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="galery" />
+
+</GridLayout>
